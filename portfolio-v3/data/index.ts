@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a SaaS application for nutrition tracking",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,35 +72,36 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "A Full-Stack Beauty Booking Solution.",
+    des: "A full-stack booking ecosystem developed to modernize beauty salon appointments in the Santos region.",
+    img: "/CoverTrimma.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/Go.svg", "/dock.svg", "/firebase.svg"],
+    link: "https://github.com/TrimmaApp/react-native-app.git",
+    
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "Patient-Centric PWA",
+    des: "A cross-platform PWA designed for patient engagement, designed to help patients monitor their health habits and progress.",
+    img: "/CoverGApp.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/firebase.svg", "/cloudinary.svg"],
+    link: "https://gabs-nutri.web.app",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Premium Landing Page for Travel Hackers.",
+    des: "A performance-driven landing page. Focused on the travel hacking niche",
+    img: "/CoverLP.svg", 
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/figma.svg"],
+    link: "https://executivacommilhas.com.br",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Admin Dashboard for Check-in Monitoring.",
+    des: "A specialized management platform. It allows nutritionists to track weekly patient progress through a centralized data hub.",
+    img: "/CoverDashboard.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/firebase.svg", "/cloudinary.svg"],
+    link: "https://gabs-dashboard.vercel.app",
   },
 ];
 
@@ -140,62 +141,62 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "TypeScrpt",
+    img: "/ts.svg",
+    nameImg: "/TypeScript.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "react",
+    img: "/re.svg",
+    nameImg: "/React.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Next.js",
+    img: "/next.svg",
+    nameImg: "/NextName.svg",
   },
   {
     id: 4,
     name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    img: "/tail.svg",
+    nameImg: "/Tailwind.svg",
   },
   {
     id: 5,
     name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    img: "/firebase.svg",
+    nameImg: "/Firebase-2.svg",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Web Development & Marketing Automation",
+    desc: "Developed high-conversion landing pages and implemented automated interaction flows for social platforms.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Backoffice Operations & Critical Systems",
+    desc: "Managed sensitive safety-standard data and technical workflows within SAP environments.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Language Educator & Communication Lead",
+    desc: "Delivered advanced language training and simplified complex linguistic concepts for diverse groups.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Computer Science Graduate & Dev Projects",
+    desc: "Solid academic foundation in computing applied to modern software solutions.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +206,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/kelloggs22",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/wha.svg",
+    link: "https://wa.me/306949756150",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/kellylee-dev/",
   },
 ];

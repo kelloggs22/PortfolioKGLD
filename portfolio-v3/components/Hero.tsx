@@ -1,3 +1,4 @@
+'use client'
 import { FaLocationArrow } from 'react-icons/fa'
 import  MagicBtn from './ui/MagicBtn'
 import { Spotlight } from './ui/Spotlight'
@@ -23,7 +24,7 @@ const Hero = () => {
         flex items-center justify-center dark:bg-black-100 bg-white 
         [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
 
-        <div className='flex justify-center relative my-20 z-10'>
+        <div className='flex justify-center relative mt-[-70px] my-20 z-10'>
           <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
             <h2 className='uppercase tracking-widest
             text-xs text-center text-blue-100 max-w-80'>
@@ -40,13 +41,13 @@ const Hero = () => {
                 Hi, I&apos;m Kelly, a Full-Stack Software Developer based in Spain.
             </p>
             
-            <a href="#about">
-              <MagicBtn 
-                title="Show my work"
-                icon={<FaLocationArrow />}
-                position='right'
-              />
-            </a>
+             <a href="#about">
+            <MagicBtn
+              title="Show my work"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a>
           </div>
         </div>
       </div>
